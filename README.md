@@ -55,13 +55,13 @@ model은 다시 view에 데이터를 전송하고, view는 template에 전달하
 
 <img src="https://mkjjo.github.io/img/posting/2019-01-05-001-djangoflow.PNG" style="zoom:33%;" />
 
-💽 URLs
+💽**URLs**
 
 👉분리된 뷰 함수를 작성하는 것이 각각의 리소스를 유지보수하기 훨씬 쉽다. URL mapper는 요청 URL을 기준으로 HTTP요청을 적절한 view로 보내주기 위해 사용된다.
 
 <br>
 
-💽View(views.py)
+💽**View** **(views.py)**
 
 👉HTTP 요청을 수신하고 HTTP 응답을 반환하는 요청 처리 함수이다.
 
@@ -69,13 +69,13 @@ View는 Model을 통해 요청을 충족시키는데 필요한 데이터에 접�
 
 <br>
 
-💽Models
+💽**Models**
 
 👉application의 데이터 구조를 정의하고 데이터베이스의 기록을 관리하고 query하는 방법을 제공하는 파이썬 객체이다.
 
 <br>
 
-💽Templates
+💽**Templates**
 
 👉파일의 구조나 레이아웃을 정의하고 실제 내용을 보여주는데 사용되는 플레이스홀더를 가진 텍스트 파일이다.
 
