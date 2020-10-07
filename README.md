@@ -28,14 +28,14 @@ model은 다시 view에 데이터를 전송하고, view는 template에 전달하
 
 <br>
 
----
-
 ### 📟단점
 
 - python이 객체지향프로그램이기 때문에, 객체지향프로그램에 대한 이해가 필요하다.
 - 성능이 다른 웹 어플리케이션 프레임워크(Node.js 등) 보다 좋지 못하다.
 
 <br>
+
+---
 
 ## 💾Project & Application
 
